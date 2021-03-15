@@ -353,7 +353,7 @@ contract BEP20Token is Context, IBEP20, Ownable {
     _name = 'Art Army Token';
     _symbol = 'ART';
     _decimals = 18;
-    _totalSupply = 500000e18;
+    _totalSupply = 100000e18;
     _balances[msg.sender] = _totalSupply;
 
     emit Transfer(address(0), msg.sender, _totalSupply);
